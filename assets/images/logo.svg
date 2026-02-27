@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#DC2626"/>
+    </linearGradient>
+  </defs>
+  <!-- Left angle bracket < (code) -->
+  <polyline points="15,10 7,20 15,30" fill="none" stroke="url(#grad)" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Pen nib on the right (language) -->
+  <path d="M25,10 L33,26 L25,30 L25,10 Z" fill="none" stroke="url(#grad)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="25" y1="30" x2="25" y2="34" stroke="url(#grad)" stroke-width="2.2" stroke-linecap="round"/>
+</svg>
