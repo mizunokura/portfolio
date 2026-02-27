@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engineering & Management - 口藏 佳希</title>
+  <meta name="description" content="口藏佳希のエンジニアリングポートフォリオ。約18年のソフトウェア開発経験とエンジニアリングマネジメント。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&family=Playfair+Display:wght@600;700&family=Noto+Serif+JP:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/engineering.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <a href="index.html" class="logo">YK</a>
+    <button class="hamburger" id="hamburger" aria-label="メニューを開く">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="header-nav" id="headerNav">
+      <a href="index.html" data-i18n="nav.home">ホーム</a>
+      <a href="engineering.html" data-i18n="nav.engineering">Engineering</a>
+      <a href="language.html" data-i18n="nav.language">翻訳・編集</a>
+      <div class="lang-toggle" role="radiogroup" aria-label="言語切替">
+        <button class="lang-option active" data-lang="ja" role="radio" aria-checked="true">JA</button>
+        <button class="lang-option" data-lang="en" role="radio" aria-checked="false">EN</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="eng-hero">
+      <div class="eng-hero-bg"></div>
+      <div class="eng-hero-content container">
+        <span class="eng-hero-label" data-i18n="eng.hero.label">Software Engineering & Management</span>
+        <h1 class="eng-hero-title" data-i18n="eng.hero.title">Engineering & Management</h1>
+        <p class="eng-hero-subtitle" data-i18n="eng.hero.subtitle">約18年にわたり、バックエンド開発・インフラ構築・チームマネジメントに携わってきました。手を動かすことも、人と向き合うことも、どちらも大切にしています。</p>
+      </div>
+    </section>
+
+    <!-- Career Timeline -->
+    <section class="section timeline-section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="eng.career.title">Career</h2>
+
+        <div class="timeline">
+
+          <div class="timeline-item animate-on-scroll">
+            <div class="timeline-period">2024.03 –</div>
+            <h3 class="timeline-company" data-i18n="eng.career.timee.company">株式会社タイミー</h3>
+            <p class="timeline-role" data-i18n="eng.career.timee.role">エンジニアリングマネージャー / シニアバックエンドエンジニア</p>
+            <ul class="timeline-details">
+              <li data-i18n="eng.career.timee.d1">報酬体験担当チームの運営・プロジェクト推進</li>
+              <li data-i18n="eng.career.timee.d2">検便機能担当チームの運営</li>
+              <li data-i18n="eng.career.timee.d3">ピープル・テック・プロセス・プロジェクトの4軸マネジメント</li>
+              <li data-i18n="eng.career.timee.d4">組織横断課題の解決</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item animate-on-scroll">
+            <div class="timeline-period">2023.04 –</div>
+            <h3 class="timeline-company" data-i18n="eng.career.freelance.company">フリーランス</h3>
+            <p class="timeline-role" data-i18n="eng.career.freelance.role">ソフトウェアエンジニア / インフラエンジニア</p>
+            <ul class="timeline-details">
+              <li data-i18n="eng.career.freelance.d1">AI学習サービス用システム構築（GPT-4 + LINE API）</li>
+              <li data-i18n="eng.career.freelance.d2">簡易契約システム構築（Stripe API）</li>
+              <li data-i18n="eng.career.freelance.d3">PTA運営システムMVP構築</li>
+              <li data-i18n="eng.career.freelance.d4">ブラウザ監視拡張機能システム構築（AWS Bedrock）</li>
+              <li data-i18n="eng.career.freelance.d5">技術的オブザーブ・アドバイザリー</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item animate-on-scroll">
+            <div class="timeline-period">2016.10 – 2024.02</div>
+            <h3 class="timeline-company" data-i18n="eng.career.peco.company">株式会社PECO</h3>
+            <p class="timeline-role" data-i18n="eng.career.peco.role">シニアソフトウェアエンジニア / インフラエンジニア / チームリーダー</p>
+            <ul class="timeline-details">
+              <li data-i18n="eng.career.peco.d1">動物病院向け電子カルテAPI構築</li>
+              <li data-i18n="eng.career.peco.d2">病院運用システム・通院情報共有サービス構築</li>
+              <li data-i18n="eng.career.peco.d3">ペットフード/用品サブスクリプションサービス構築</li>
+              <li data-i18n="eng.career.peco.d4">PECOメディアCMS構築</li>
+              <li data-i18n="eng.career.peco.d5">オフィスネットワークインフラ構築</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item animate-on-scroll">
+            <div class="timeline-period">2013.03 – 2016.09</div>
+            <h3 class="timeline-company" data-i18n="eng.career.dena.company">株式会社ディー・エヌ・エー</h3>
+            <p class="timeline-role" data-i18n="eng.career.dena.role">ソフトウェアエンジニア / チームリーダー / スクラムマスター / PM</p>
+            <ul class="timeline-details">
+              <li data-i18n="eng.career.dena.d1">Mobage ゲームプラットフォームのバックエンド開発</li>
+              <li data-i18n="eng.career.dena.d2">Next Browser Platform (NBPF)</li>
+              <li data-i18n="eng.career.dena.d3">Final Fantasy Record Keeper</li>
+              <li data-i18n="eng.career.dena.d4">10人規模チームのリード、PO兼SM</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item animate-on-scroll">
+            <div class="timeline-period">2012.06 – 2013.03</div>
+            <h3 class="timeline-company" data-i18n="eng.career.griffin.company">株式会社グリフィン</h3>
+            <p class="timeline-role" data-i18n="eng.career.griffin.role">ソフトウェアエンジニア</p>
+            <ul class="timeline-details">
+              <li data-i18n="eng.career.griffin.d1">業務基幹システム入れ替え</li>
+              <li data-i18n="eng.career.griffin.d2">官公庁向け日本語教材検索Webシステム構築</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item animate-on-scroll">
+            <div class="timeline-period">2007.02 – 2012.05</div>
+            <h3 class="timeline-company" data-i18n="eng.career.splant.company">株式会社エスプラント</h3>
+            <p class="timeline-role" data-i18n="eng.career.splant.role">ソフトウェアエンジニア</p>
+            <ul class="timeline-details">
+              <li data-i18n="eng.career.splant.d1">勤怠管理システム構築（200名規模）</li>
+              <li data-i18n="eng.career.splant.d2">要件定義・設計・実装・テスト・運用まで一貫して担当</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills-section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="eng.skills.title">Skills</h2>
+
+        <div class="skill-grid">
+
+          <div class="skill-card animate-on-scroll">
+            <h3 class="skill-card-title" data-i18n="eng.skills.languages">Languages</h3>
+            <div class="skill-card-list">
+              <span class="skill-tag">Ruby</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">PHP</span>
+              <span class="skill-tag">Perl</span>
+              <span class="skill-tag">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="skill-card animate-on-scroll">
+            <h3 class="skill-card-title" data-i18n="eng.skills.frameworks">Frameworks</h3>
+            <div class="skill-card-list">
+              <span class="skill-tag">Ruby on Rails</span>
+              <span class="skill-tag">Flask</span>
+              <span class="skill-tag">CakePHP</span>
+              <span class="skill-tag">MobaSiF</span>
+            </div>
+          </div>
+
+          <div class="skill-card animate-on-scroll">
+            <h3 class="skill-card-title" data-i18n="eng.skills.databases">Databases</h3>
+            <div class="skill-card-list">
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">Redis</span>
+            </div>
+          </div>
+
+          <div class="skill-card animate-on-scroll">
+            <h3 class="skill-card-title" data-i18n="eng.skills.ai">AI / AI-Assisted Dev</h3>
+            <div class="skill-card-list">
+              <span class="skill-tag">Claude Code</span>
+              <span class="skill-tag">Cursor</span>
+              <span class="skill-tag">OpenAI Codex</span>
+              <span class="skill-tag">OpenAI GPT API</span>
+              <span class="skill-tag">AWS Bedrock</span>
+            </div>
+          </div>
+
+          <div class="skill-card animate-on-scroll">
+            <h3 class="skill-card-title">APIs</h3>
+            <div class="skill-card-list">
+              <span class="skill-tag">LINE Messaging API</span>
+              <span class="skill-tag">Stripe API</span>
+            </div>
+          </div>
+
+          <div class="skill-card animate-on-scroll">
+            <h3 class="skill-card-title" data-i18n="eng.skills.infra">Infrastructure</h3>
+            <div class="skill-card-list">
+              <span class="skill-tag">AWS</span>
+              <span class="skill-tag">nginx</span>
+              <span class="skill-tag">h2o</span>
+              <span class="skill-tag">Apache</span>
+              <span class="skill-tag">VPN</span>
+              <span class="skill-tag">YAMAHA RTX</span>
+            </div>
+          </div>
+
+          <div class="skill-card animate-on-scroll">
+            <h3 class="skill-card-title" data-i18n="eng.skills.methods">Methods</h3>
+            <div class="skill-card-list">
+              <span class="skill-tag">TDD</span>
+              <span class="skill-tag">DDD</span>
+              <span class="skill-tag">Scrum</span>
+              <span class="skill-tag">Kanban</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Management -->
+    <section class="section management-section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="eng.management.title">Management</h2>
+
+        <div class="management-content">
+          <p class="section-subtitle" data-i18n="eng.management.description">タイミーでのEMとして、4つのマネジメント領域を横断的に担っています。</p>
+
+          <div class="management-pillars">
+            <div class="pillar-card animate-on-scroll">
+              <div class="pillar-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--color-eng-primary)" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <h3 class="pillar-title" data-i18n="eng.management.people.title">People</h3>
+              <p class="pillar-description" data-i18n="eng.management.people.desc">メンバーの成長支援、1on1、キャリア開発</p>
+            </div>
+
+            <div class="pillar-card animate-on-scroll">
+              <div class="pillar-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--color-eng-primary)" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <h3 class="pillar-title" data-i18n="eng.management.tech.title">Technology</h3>
+              <p class="pillar-description" data-i18n="eng.management.tech.desc">技術選定、アーキテクチャ設計、技術負債管理</p>
+            </div>
+
+            <div class="pillar-card animate-on-scroll">
+              <div class="pillar-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--color-eng-primary)" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+              </div>
+              <h3 class="pillar-title" data-i18n="eng.management.project.title">Project</h3>
+              <p class="pillar-description" data-i18n="eng.management.project.desc">要件整理、スケジュール管理、ステークホルダー調整</p>
+            </div>
+
+            <div class="pillar-card animate-on-scroll">
+              <div class="pillar-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--color-eng-primary)" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <h3 class="pillar-title" data-i18n="eng.management.process.title">Process</h3>
+              <p class="pillar-description" data-i18n="eng.management.process.desc">開発フロー改善、振り返り運営、組織横断課題解決</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Domain Knowledge -->
+    <section class="section domain-section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="eng.domain.title">事業ドメイン知識</h2>
+        <div class="domain-grid">
+          <span class="domain-tag animate-on-scroll" data-i18n="eng.domain.hospital">動物病院</span>
+          <span class="domain-tag animate-on-scroll" data-i18n="eng.domain.subscription">サブスクリプション</span>
+          <span class="domain-tag animate-on-scroll" data-i18n="eng.domain.media">Webメディア</span>
+          <span class="domain-tag animate-on-scroll" data-i18n="eng.domain.ec">EC・通販</span>
+          <span class="domain-tag animate-on-scroll" data-i18n="eng.domain.gaming">ゲームプラットフォーム</span>
+          <span class="domain-tag animate-on-scroll" data-i18n="eng.domain.hr">人材マッチング</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="eng.cert.title">資格</h2>
+        <div class="cert-list">
+          <span class="cert-item animate-on-scroll">LPIC Level 1</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section" style="background: var(--color-bg-alt);">
+      <div class="container">
+        <h2 class="section-title" data-i18n="eng.edu.title">学歴</h2>
+        <p style="text-align:center; color: var(--color-text-muted);" data-i18n="eng.edu.university">徳島大学 総合科学部 人間科学科（2003年4月 – 2007年2月）</p>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+      <div class="container">
+        <p class="cta-description" data-i18n="eng.cta.description">翻訳・校正校閲の仕事にも興味がありますか？</p>
+        <a href="language.html" class="cta-link" data-i18n="eng.cta.link">Translation & Editing →</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Yoshiki Kuchikura</p>
+    </div>
+  </footer>
+
+  <script src="js/common.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/i18n.js"></script>
+
+</body>
+</html>
