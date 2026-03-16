@@ -137,6 +137,16 @@
       'eng.edu.title': '学歴',
       'eng.edu.university': '徳島大学 総合科学部 人間科学科（2003年4月 – 2007年2月）',
 
+      'eng.lookingfor.title': '関心のある仕事',
+      'eng.lookingfor.direction': 'まだ構造が定まっていない領域で、問題を定義し、仕組みを設計する仕事に関心があります。手段はコード・業務フロー・言葉を問いません。',
+      'eng.lookingfor.process.title': 'プロセス・業務設計',
+      'eng.lookingfor.process.desc': '要件定義、業務フロー設計、開発プロセスの構造化',
+      'eng.lookingfor.ai.title': 'AI活用支援',
+      'eng.lookingfor.ai.desc': 'LLM/AIツールの開発組織への導入設計、ワークフロー構築',
+      'eng.lookingfor.backend.title': 'バックエンド開発',
+      'eng.lookingfor.backend.desc': '設計・実装・運用。Ruby/Python/AWSを中心に',
+      'eng.lookingfor.sidework': '副業としてのご相談も歓迎しています。お気軽にお声がけください。',
+
       'eng.cta.description': '翻訳・校正校閲の仕事にも興味がありますか？',
       'eng.cta.link': 'Translation & Editing →',
 
@@ -339,6 +349,16 @@
       'eng.cert.title': 'Certifications',
       'eng.edu.title': 'Education',
       'eng.edu.university': 'Tokushima University, Faculty of Integrated Arts and Sciences (Apr 2003 – Feb 2007)',
+
+      'eng.lookingfor.title': 'Looking For',
+      'eng.lookingfor.direction': 'I\'m drawn to defining problems and designing systems in domains where structure hasn\'t yet been established. The medium doesn\'t matter — code, workflows, or words.',
+      'eng.lookingfor.process.title': 'Process & Workflow Design',
+      'eng.lookingfor.process.desc': 'Requirements engineering, workflow design, dev process architecture',
+      'eng.lookingfor.ai.title': 'AI Adoption',
+      'eng.lookingfor.ai.desc': 'Designing LLM/AI tool integration into engineering organizations',
+      'eng.lookingfor.backend.title': 'Backend Development',
+      'eng.lookingfor.backend.desc': 'Design, implementation & operations. Primarily Ruby/Python/AWS',
+      'eng.lookingfor.sidework': 'Open to side projects and consulting. Feel free to reach out.',
 
       'eng.cta.description': 'Interested in my translation & editing work?',
       'eng.cta.link': 'Translation & Editing →',
